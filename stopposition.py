@@ -1,7 +1,6 @@
 class Stopposition():
-    def __init__(self,width,length1,price,status):
-        self.width = width
-        self.length1 = length1
+    def __init__(self,id,price,status):
+        self.id = id
         self.price = price
         self.status = status
     
